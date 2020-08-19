@@ -1,5 +1,8 @@
 package edu.eci.cvds.patterns.shapes;
 
+/**
+*Clase main de shape, verifica que los parametros sean correcto y si lo son lo manda construir a shapFactory
+*/
 public class ShapeMain {
     public static void main(String[] args) {
         if (args == null || args.length != 1) {

@@ -1,6 +1,10 @@
 package edu.eci.cvds.patterns.shapes;
 import edu.eci.cvds.patterns.shapes.concrete.*;
 
+/**
+*Fabrica de Shape que crea un shape segun tipoFigura
+*/
+
 public class ShapeFactory{
 	public static Shape create(RegularShapeType tipoFigura){
 		Shape figura;
@@ -24,9 +28,6 @@ public class ShapeFactory{
 		
 	}
 	
-	
-	
-
-	
+		
 }		
 	
